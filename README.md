@@ -3,10 +3,16 @@
 A modern, dark-themed desktop application to store and analyze student marks. Built using Python, Tkinter, NumPy, and Matplotlib.
 
 ## Features
-- Add, view, and remove student marks.
+- Add, view, and remove student marks (with a one-click **Sample Data** loader).
 - Validate inputs (Name cannot be empty, marks must be numeric and between 0-100).
-- Dynamically calculate statistics using **NumPy** (Maximum, Minimum, Average, Total, Standard Deviation).
-- Visualize data with a modern dark-themed Matplotlib bar chart.
+- Dynamically calculate statistics using **NumPy** (Maximum, Minimum, Average, Median, Total, Standard Deviation, Pass Rate, Student Count).
+- Automatic letter grades (A+ to F) with color-coded rows in the table.
+- 5 dark-themed Matplotlib visualizations:
+  - **Bar Chart** - marks per student, colored by grade.
+  - **Pie Chart** - grade distribution percentages.
+  - **Histogram** - marks ranges with a mean line.
+  - **Line Chart** - marks trend with average line and shaded area.
+  - **Grade Cards** - number of students per grade.
 - Simple, beginner-friendly UI with clean code architecture.
 
 ## Tech Stack
